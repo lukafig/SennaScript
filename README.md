@@ -1,13 +1,13 @@
 # APS — Lógica da Computação 2025/2  
-## Roteiro 1 — **SennaScript**
+# SennaScript
 
-### 🎯 Objetivo
+###  Objetivo
 Definir formalmente a linguagem **SennaScript** em **EBNF (Extended Backus–Naur Form)**.  
 A SennaScript é uma linguagem de alto nível inspirada no automobilismo, projetada para controlar um carro em uma pista simulada.  
 
 ---
 
-### 🚗 Descrição da Linguagem
+###  Descrição da Linguagem
 A **SennaScript** oferece:  
 - **Declarações de variáveis** (`var pos = 0;`).  
 - **Sensores somente leitura**:  
@@ -25,7 +25,7 @@ A **SennaScript** oferece:
 
 ---
 
-### 📜 Definição Formal (EBNF)
+###  Definição Formal (EBNF)
 
 ```ebnf
 (* Programa principal *)
@@ -79,7 +79,7 @@ digito     = "0" | ... | "9" ;
 
 ---
 
-### 📝 Exemplos em **SennaScript**
+###  Exemplos em **SennaScript**
 
 #### Exemplo 1 — Corrida simples
 ```txt
@@ -109,17 +109,3 @@ corrida {
 }
 ```
 
----
-
-### 📂 Organização sugerida para o repositório
-Estrutura mínima do GitHub para essa entrega:  
-
-```
-SennaScript/
- ├── docs/
- │    └── SennaScript-EBNF.md   (este documento)
- └── exemplos/
-      ├── exemplo1.ss
-      └── exemplo2.ss
-```
-# SennaScript
