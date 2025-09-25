@@ -41,6 +41,8 @@ A **SennaScript** oferece:
 | **lap**     | Sensor: volta atual do carro (somente leitura).                        |
 | **pos**     | Sensor: posição atual do carro na pista (somente leitura).             |
 
+---
+
 
 ###  Definição Formal (EBNF)
 
