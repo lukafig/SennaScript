@@ -24,6 +24,23 @@ A **SennaScript** oferece:
 - **Saída**: `escrever(...)`.  
 
 ---
+###  Palavras-reservadas
+
+| Palavra     | Função                                                                 |
+|-------------|------------------------------------------------------------------------|
+| **corrida** | Define o início do programa principal.                                 |
+| **var**     | Declara uma variável inteira.                                          |
+| **se**      | Estrutura condicional (if).                                            |
+| **senao**   | Bloco alternativo da condição (else).                                  |
+| **enquanto**| Estrutura de repetição (while).                                        |
+| **escrever**| Exibe valores (variáveis, sensores ou expressões).                     |
+| **acelerar**| Aumenta a velocidade do carro.                                         |
+| **frear**   | Diminui a velocidade do carro.                                         |
+| **mover**   | Atualiza a posição do carro de acordo com a velocidade atual.          |
+| **fuel**    | Sensor: nível de combustível restante (somente leitura).               |
+| **lap**     | Sensor: volta atual do carro (somente leitura).                        |
+| **pos**     | Sensor: posição atual do carro na pista (somente leitura).             |
+
 
 ###  Definição Formal (EBNF)
 
